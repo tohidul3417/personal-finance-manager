@@ -21,7 +21,7 @@ const ExpenseChart = () => {
         const budgetExpenses = expenses.filter((expense) => {
           console.log(expense.budgetId);
           console.log(budget.id);
-          return expense.budgetId == budget.id;
+          return expense.budgetId === budget.id;
         });
 
         console.log(`Budget: ${budget.name}`, budget);

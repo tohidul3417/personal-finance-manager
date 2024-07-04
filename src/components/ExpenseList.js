@@ -17,7 +17,7 @@ function ExpenseList() {
     <div className="p-4 bg-white rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
       {budgets.map((budget) => {
         const budgetExpenses = expenses.filter(
-          (expense) => expense.budgetId == budget.id
+          (expense) => expense.budgetId === budget.id
         );
         if (budgetExpenses.length > 0) {
           return (
@@ -69,6 +69,8 @@ function ExpenseList() {
               </p>
             </ul>
           );
+        } else {
+          return null
         }
       })}
     </div>
