@@ -10,7 +10,7 @@ const budgetSlice = createSlice({
     },
     updateBudget: (state, action) => {
       const { id, name, amount } = action.payload;
-      const budget = state.find((budget) => budget.id == id);
+      const budget = state.find((budget) => budget.id === id);
       if (budget) {
         budget.name = name;
         budget.amount = amount;
@@ -22,7 +22,7 @@ const budgetSlice = createSlice({
     },
     updateSpent: (state, action) => {
       const { id, amount } = action.payload;
-      const budget = state.find((budget) => budget.id == id);
+      const budget = state.find((budget) => budget.id === id);
       if (budget) {
         budget.spent += amount;
       }
@@ -30,7 +30,7 @@ const budgetSlice = createSlice({
 
     resetSpent: (state, action) => {
       const { id, amount } = action.payload;
-      const budget = state.find((budget) => budget.id == id);
+      const budget = state.find((budget) => budget.id === id);
       if (budget) {
         budget.spent -= amount;
       }
