@@ -10,12 +10,10 @@ const expenseSlice = createSlice({
       state.push(action.payload);
     },
     updateExpense: (state, action) => {
-      const { id, description, amount, budgetId } = action.payload;
+      const { id, amount} = action.payload;
       const expense = state.find((expense) => expense.id === id);
       if (expense) {
-        expense.description = description;
         expense.amount = amount;
-        expense.budgetId = budgetId;
       }
     },
     removeExpense: (state, action) => {
