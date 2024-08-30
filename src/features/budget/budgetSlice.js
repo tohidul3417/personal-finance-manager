@@ -11,7 +11,7 @@ const budgetSlice = createSlice({
     updateBudget: (state, action) => {
       const { id, amount } = action.payload;
       const budget = state.find((budget) => budget.id === id);
-      if (budget) 
+      if (budget) {
         budget.amount = amount;
       }
     },
