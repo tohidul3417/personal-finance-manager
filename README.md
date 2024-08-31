@@ -6,7 +6,7 @@ Personal Finance Manager is a web app that helps manage their personal budgets a
 
 ## Live Demo
 
-Check out the live demo of the Personal Finance Manager [here](https://hasantohidul-personal-finance-manager.netlify.app/){:target="_blank"}.
+Check out the live demo of the Personal Finance Manager <a href="https://hasantohidul-personal-finance-manager.netlify.app/" target="_blank" rel="noopener noreferrer">here</a>.
 
 ## Features
 
