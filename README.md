@@ -65,46 +65,56 @@ To run this project locally, follow these steps:
     This will execute the unit tests for components like **ExpenseForm**, **BudgetList**, and others using jest and React Testing Library.
 ## Project Structure
 ```sh
-personal-finance-manager/
-├── public/
-│   ├── index.html
-│   └── personal.png
-├── src/
-│   ├── app/
-│   │   └── store.js
-│   ├── components/
-│   │   ├── Navbar.js
-│   │   ├── Home.js
-│   │   ├── Expenses.js
-│   │   ├── Budgets.js
-│   │   ├── BudgetForm.js
-│   │   ├── BudgetList.js
-│   │   ├── EditBudgetForm.js
-│   │   ├── ExpenseForm.js
-│   │   ├── ExpenseList.js
-│   │   ├── EditExpenseForm.js
-│   │   ├── ExpenseChart.js
-│   │   ├── BudgetForm.test.js
-│   │   ├── BudgetList.test.js
-│   │   ├── EditBudgetForm.test.js
-│   │   ├── ExpenseForm.test.js
-│   │   ├── ExpenseList.test.js
-│   │   ├── EditExpenseForm.test.js
-│   │   ├── ExpenseChart.test.js
-│   ├── features/
-│   │   ├── budget/
-│   │   │   └── budgetSlice.js
-│   │   └── expense/
-│   │       └── expenseSlice.js
-│   ├── utils/
-│   │   └── localStorage.js
-│   ├── App.js
-│   ├── index.js
-│   └── App.css
-├── tailwind.config.js
-├── postcss.config.js
-├── package.json
-└── README.md
+personal-finance-manager
+├─ .gitignore
+├─ LICENSE
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.js
+├─ public
+│  ├─ favicon.ico
+│  ├─ index.html
+│  ├─ manifest.json
+│  ├─ personal.png
+│  └─ robots.txt
+├─ README.md
+├─ src
+│  ├─ app
+│  │  └─ store.js
+│  ├─ App.css
+│  ├─ App.js
+│  ├─ components
+│  │  ├─ BudgetForm.js
+│  │  ├─ BudgetForm.test.js
+│  │  ├─ BudgetList.js
+│  │  ├─ BudgetList.test.js
+│  │  ├─ Budgets.js
+│  │  ├─ EditBudgetForm.js
+│  │  ├─ EditBudgetForm.test.js
+│  │  ├─ EditExpenseForm.js
+│  │  ├─ EditExpenseForm.test.js
+│  │  ├─ ExpenseChart.css
+│  │  ├─ ExpenseChart.js
+│  │  ├─ ExpenseChart.test.js
+│  │  ├─ ExpenseForm.js
+│  │  ├─ ExpenseForm.test.js
+│  │  ├─ ExpenseList.js
+│  │  ├─ ExpenseList.test.js
+│  │  ├─ Expenses.js
+│  │  ├─ Home.js
+│  │  └─ Navbar.js
+│  ├─ features
+│  │  ├─ budget
+│  │  │  └─ budgetSlice.js
+│  │  └─ expense
+│  │     └─ expenseSlice.js
+│  ├─ index.css
+│  ├─ index.js
+│  ├─ reportWebVitals.js
+│  ├─ setupTests.js
+│  └─ utils
+│     └─ localStorage.js
+└─ tailwind.config.js
 ```
 
 ## Contributing
@@ -112,3 +122,4 @@ personal-finance-manager/
 Contributions are welcome! Please fork this repository and submit a pull request for any features, enhancements, or bug fixes.
 ## License
 This project is licensed under the MIT License
+
