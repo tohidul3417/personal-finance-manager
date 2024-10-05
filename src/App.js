@@ -4,7 +4,6 @@ import Home from "./components/Home";
 import Expenses from "./components/Expenses";
 import Budgets from "./components/Budgets";
 import NavBar from "./components/Navbar";
-import './App.css';
 
 /**
  * Main App component with routing
@@ -12,7 +11,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App mx-auto">
+    <div>
       <NavBar />
       <div className="container mx-auto p-4">
         <Routes>
