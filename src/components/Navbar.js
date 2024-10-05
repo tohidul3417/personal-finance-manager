@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="bg-gray-800 p-4 text-white mx-auto">
-      <div className="container mx-auto flex justify-between">
+    <nav className="bg-gray-800 p-4 text-white">
+      <div className="max-w-7xl mx-auto flex justify-between">
         <NavLink
           to="/"
           className={({ isActive }) =>
