@@ -1,14 +1,14 @@
 
 # Personal Finance Manager
 
-## Overview
+## 🌐 Overview
 Personal Finance Manager is a web app that helps manage their personal budgets and expenses effectively. Built with React and Redux, this app provides a simple way to track budgets and expenses through a user-friendly interface.
 
-## Live Demo
+## 🌍 Live Demo
 
 Check out the live demo of the Personal Finance Manager <a href="https://hasantohidul-personal-finance-manager.netlify.app/" target="_blank" rel="noopener noreferrer">here</a>.
 
-## Features
+## ✨ Features
 
 - **Budget Management:** Create, update and delete budgets.
 - **Expense Tracking:** Record expenses under specific budgets and monitor spending.
@@ -18,7 +18,7 @@ Check out the live demo of the Personal Finance Manager <a href="https://hasanto
 - **Comprehensive Testing:** Includes unit tests for critical components.
 
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - **React:** A JavaScript library for building user interfaces
 - **Redux:** A predictable state container for JavaScript apps.
@@ -27,7 +27,8 @@ Check out the live demo of the Personal Finance Manager <a href="https://hasanto
 - **Chart.js:** For rendering interactive charts to visualize expenses
 - **Jest & React Testing Library:** For unit testing and ensuring code quality.
 - **localStorage:** For persisting state across sessions.
-## Installation
+
+## 🚀 Installation
 To run this project locally, follow these steps:
 
 1.  **Clone the repository**
@@ -47,7 +48,7 @@ To run this project locally, follow these steps:
     npm start
     ```
     The app will run on `http://localhost:3000`.
-## Usage
+## 📖 Usage
 
 1. **Manage Budgets:**
 - Navigate to the "Budgets" section.
@@ -56,14 +57,14 @@ To run this project locally, follow these steps:
 - Navigate to "Expenses" section
 - Add exepnses under specific budgets.
 
-## Running Tests
+## 🧪 Running Tests
 
 1. To run the tests
     ```sh
     npm test
     ```
     This will execute the unit tests for components like **ExpenseForm**, **BudgetList**, and others using jest and React Testing Library.
-## Project Structure
+## 📂 Project Structure
 ```sh
 personal-finance-manager
 ├─ .gitignore
@@ -117,9 +118,9 @@ personal-finance-manager
 └─ tailwind.config.js
 ```
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Please fork this repository and submit a pull request for any features, enhancements, or bug fixes.
-## License
+## 📄 License
 This project is licensed under the MIT License
 
