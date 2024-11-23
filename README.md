@@ -6,7 +6,7 @@ Personal Finance Manager is a web app that helps manage their personal budgets a
 
 ## 🌍 Live Demo
 
-Check out the live demo of the Personal Finance Manager <a href="https://hasantohidul-personal-finance-manager.netlify.app/" target="_blank" rel="noopener noreferrer">here</a>.
+Check out the live demo of the Personal Finance Manager <a href="https://tohid-personal-finance-manager.netlify.app/" target="_blank" rel="noopener noreferrer">here</a>.
 
 ## ✨ Features
 
@@ -123,4 +123,5 @@ personal-finance-manager
 Contributions are welcome! Please fork this repository and submit a pull request for any features, enhancements, or bug fixes.
 ## 📄 License
 This project is licensed under the MIT License
+
 
