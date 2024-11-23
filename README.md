@@ -1,5 +1,5 @@
 
-# Personal Finance Manager
+# <img src="./src/assets/images/logo.png" width="25px" height="25px"> Personal Finance Manager
 
 ## 🌐 Overview
 Personal Finance Manager is a web app that helps manage their personal budgets and expenses effectively. Built with React and Redux, this app provides a simple way to track budgets and expenses through a user-friendly interface.
